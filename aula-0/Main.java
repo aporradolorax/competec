@@ -3,6 +3,32 @@ public class Main
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 
+
+    int idade = 15;
+    String nome = "P";
+    Boolean tomeicafÃ© = true;
+    char i = 12002;
+    
+    
+    System.out.println("a letra inicial do meu nome Ã© "+nome);
+    System.out.println("eu tenho "+idade+" anos");
+	System.out.println(tomeicafÃ©);
+	System.out.println(i);
+
+	    
+	}
+}
+
+
+
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+
  double raranja = 2;
  double nabana = 1;
  
