@@ -70,3 +70,34 @@ public class Main
     
 	}
 }
+
+
+
+
+//att 4 
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner p1 = new Scanner (System.in);
+	    
+	         int senha= 123;
+	         System.out.println("informe a senha");
+	         int tent = p1.nextInt();
+	    
+	       while (tent != senha){
+	        
+	        System.out.println("senha incorreta tente novamente");
+	         tent = p1.nextInt();
+	       }
+	        
+	        System.out.println("acesso permitido");
+	        
+	        
+	   
+	   
+    
+    
+}
+}
