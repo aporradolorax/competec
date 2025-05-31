@@ -31,6 +31,29 @@ public class Main
     System.out.println();
     int soma= numeros [0]+numeros[1]+numeros[2];
     System.out.println("se você somalos o resultado será: "+soma);
+		//////////////////////
+		//atividade 2
+
+		public class Main
+{
+	public static void main(String[] args) {
+	    
+	String nomes []= {"ana","maria","carlos","danilo"};
+	
+	System.out.println("a fila tem "+nomes.length+ " pessoas");
+	
+	int ind = 0;
+	int inde = 1;
+	while (ind<4){
+	    
+	System.out.println(inde+" "+ nomes[ind]);
+	ind++;
+	inde++;
+	}
+	}
+}
+
+
 
     
     
