@@ -11,6 +11,12 @@
     //int tamanho = alfabeto.length;
     //////////////////////////////////////////////
 
+			//essa porra coloca espaço sozinho!!!!!!!!!!!!!!!!!!!!!
+			String nomes []= {"ana","maria","carlos"};
+	for(String n : nomes){
+	    System.out.print(n+" ");
+/////////////////////////////////////////////////////////////
+
 
 
 //atividade 1
