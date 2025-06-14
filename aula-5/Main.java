@@ -22,3 +22,55 @@ public class Main
 	}
 }
 
+//incompleto
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		String nomes []= {"Mariana",
+"Carlos",
+"Sofia",
+"Lucas",
+"Juliana",
+"Paulo",
+"Ana",
+"Pedro",
+"Beatriz",
+"Fernando",
+"Camila",
+"Ricardo",
+"Laura",
+"Daniel",
+"Manuela",
+"Rodrigo",
+"Isabela",
+"Gustavo",
+"Helena",
+"Rafaela",
+"Gabriel",
+"Valentina",
+"Samuel",
+"Lara",
+"Antônio",
+"Nicole",
+"Matheus",
+"Eduarda",
+"Leonardo",
+"Vitória"};
+
+int notas[][] = {{4,6},{1,7}};
+	
+	int ind = 0;
+	int inde = 1;
+	while (ind<30){
+	    
+	System.out.println(inde+" "+ nomes[ind]+" "+notas[ind][ind]);
+	ind++;
+	inde++;
+	System.out.println(inde+" "+ nomes[ind]+" "+notas[ind][ind]);
+	ind++;
+	inde++;
+	}
+}}
+
