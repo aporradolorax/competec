@@ -19,10 +19,10 @@ public class Main
 {
 	public static void main(String[] args) {
 		Scanner p1 = new Scanner(System.in);
-		String senha = "batata";
+		String senha = "BATATA";
 		String tent = p1.nextLine();
 		
-		if ( tent.equalsIgnoreCase(senha)){
+		if ( tent.equalsIgnoreCase (senha)){
 		    System.out.println("parabens você acertou!!");
 		   
 		}
@@ -35,6 +35,7 @@ public class Main
 		
 	}
 }
+
 
 
 
